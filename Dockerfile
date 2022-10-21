@@ -1,13 +1,9 @@
 FROM python:3.8
 LABEL maintainer="Kosmopy"
 
-WORKDIR /usr/src/app
-
-COPY ./techtrends/requirements.txt ./
-
+COPY ./techtrends/ /app/
+WORKDIR /app
 RUN pip install -r requirements.txt
-
-COPY ./techtrends ./
 
 RUN python init_db.py
 
