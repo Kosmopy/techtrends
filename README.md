@@ -4,10 +4,10 @@ In this project, I package and deploy TechTrends to Kubernetes using a CI/CD pip
 
 ## description files:
 
-    argocd - the folder that will contain the ArgoCD manifests
-    helm - the folder that will contain the Helm chart files
-    kubernetes - the folder that will contain Kubernetes declarative manifests
-    screenshots - the folder that will contain all the screenshots that you take throughout the course
-    docker_commands - the file will be used to record any used Docker commands and outputs
-    Dockerfile - the file that contains the instructions to package the application
-    .github - folder containing the configuration for GitHub Actions workflows
+    argocd - contains the ArgoCD manifests
+    helm - contains the Helm chart files
+    kubernetes - contains Kubernetes declarative manifests
+    screenshots - contains all the screenshots that you take throughout the course
+    docker_commands - records used Docker commands and outputs
+    Dockerfile - contains the instructions to package the application
+    .github - contains the configuration for GitHub Actions workflows
