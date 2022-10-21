@@ -35,8 +35,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: https://github.com/Kosmopy/nd064_course_1/tree/main/project
+          context: https://github.com/Kosmopy/techtrends
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: Kosmopy/python-helloworld:latest
+          tags: Kosmopy/app:latest
